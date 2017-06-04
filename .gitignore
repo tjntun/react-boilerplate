@@ -1,8 +1,4 @@
-# Modules
 node_modules
-
-# Production
 build
-
-# Error
 npm-debug.log
+.vscode
