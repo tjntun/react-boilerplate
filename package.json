@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "prod": "npm run clean && NODE_ENV=production webpack -p",
-    "clean": "rimraf ./build/*"
+    "clean": "rimraf ./build/*",
+    "lint": "stylelint 'src/*.scss'"
   },
   "keywords": [],
   "author": "https://github.com/sydinh",
@@ -22,6 +23,7 @@
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
+    "stylelint-config-standard": "^17.0.0",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   },
