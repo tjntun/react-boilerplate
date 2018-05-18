@@ -16,6 +16,10 @@
 
 `npm run build`
 
+### Running node server
+
+`npm run server`
+
 ### Linting Javascript
 
 `npm run eslint`
