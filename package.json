@@ -1,7 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "## Instructions `npm install` `npm start`",
+  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
