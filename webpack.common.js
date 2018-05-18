@@ -1,15 +1,15 @@
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const path = require('path');
 
 module.exports = {
   entry: {
-    main: './src/index.js',
+    main: './src/index.js'
   },
 
   output: {
     filename: '[name].[hash].js',
-    path: path.resolve('./dist'),
+    path: path.resolve('./dist')
   },
 
   module: {
@@ -17,7 +17,9 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: ['node_modules'],
-        use: [{ loader: 'babel-loader' }],
+        use: [
+          { loader: 'babel-loader' }
+        ]
       },
 
       {
@@ -45,11 +47,5 @@ module.exports = {
     new CleanWebpackPlugin([
       'dist'
     ])
-  ],
-
-  devServer: {
-    host: 'localhost',
-    port: 4000,
-    open: true,
-  }
+  ]
 };
