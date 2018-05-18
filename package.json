@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sydinh/react-redux-boilerplate.git"
+    "url": "git+https://github.com/sydinh/react-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sydinh/react-redux-boilerplate/issues"
+    "url": "https://github.com/sydinh/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/sydinh/react-redux-boilerplate#readme",
+  "homepage": "https://github.com/sydinh/react-boilerplate#readme",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
