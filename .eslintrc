@@ -1,8 +1,13 @@
-// https://eslint.org/docs/user-guide/configuring#configuration-file-formats
+# https://eslint.org/docs/user-guide/configuring#configuration-file-formats
 
-module.exports = {
+{
   "extends": "airbnb",
   "rules": {
-    "react/jsx-filename-extension": "off"
+    "no-console": "off",
+    "react/jsx-filename-extension": "off",
+    "import/newline-after-import": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/prefer-stateless-function": "off"
   }
-};
+}
+

@@ -1,1 +1,3 @@
 # https://github.com/stylelint/stylelint/blob/master/docs/user-guide/configuration.md#ignorefiles
+
+# stylelint ignores specific files.

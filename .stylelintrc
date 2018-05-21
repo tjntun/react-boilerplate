@@ -1,3 +1,5 @@
+# https://stylelint.io/user-guide/cli/#the-stylelint-cli
+
 {
   "extends": "stylelint-config-standard"
 }

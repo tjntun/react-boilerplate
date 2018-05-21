@@ -6,7 +6,7 @@ class App extends Component {
       <div>
         <h1>Welcome to my React Boilerplate</h1>
       </div>
-    )
+    );
   }
 }
 
